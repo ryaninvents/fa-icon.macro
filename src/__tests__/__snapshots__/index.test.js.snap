@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`macros 1. macros: 1. macros 1`] = `
+"
+import createIcon from './macro';
+
+const homeIcon = createIcon('./home.svg');
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const homeIcon = {
+  \\"prefix\\": \\"far\\",
+  \\"icon\\": [256, 256, [], null, \\"M165.9604 0.0000L165.9604 28.2058L129.3353 3.3868L0.0000 89.2231L37.0090 89.2231L37.0090 256.0000L100.3403 256.0000L100.3403 148.7045L176.2611 148.7045L176.2611 256.0000L223.1889 256.0000L223.1889 89.2231L256.0000 89.2231L210.9791 58.7135L210.9791 0.0000L165.9604 0.0000z\\"]
+};
+"
+`;

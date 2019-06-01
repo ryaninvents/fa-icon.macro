@@ -1,0 +1,43 @@
+# Common npm files
+*.log
+.node_repl_history
+.npm
+lerna-debug.log*
+logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+*.pid
+*.pid.lock
+*.seed
+pids
+
+# Dev/test data
+.data/
+
+# Test coverage
+coverage
+lib-cov
+
+# TypeScript
+typings/
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Environment variables
+.env
+.env.test
+
+# Build output
+.next
+pkg/
