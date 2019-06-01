@@ -39,10 +39,6 @@ function faIconMacro({ references, state, babel: { types: t } }) {
   defaultImport.forEach((referencePath) => {
     if (referencePath.parentPath.type === 'CallExpression') {
       if (referencePath === referencePath.parentPath.get('callee')) {
-        console.log(
-          'function call arguments (as callee)',
-          referencePath.parentPath.get('arguments')
-        );
         if (
           !t.isStringLiteral(referencePath.parentPath.get('arguments.0').node)
         ) {
