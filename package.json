@@ -7,6 +7,10 @@
     "icon",
     "web"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryaninvents/fa-icon.macro.git"
+  },
   "main": "src/index.js",
   "scripts": {
     "build": "npm-run-all build:pkg",
