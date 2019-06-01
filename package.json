@@ -11,7 +11,8 @@
   "scripts": {
     "build": "npm-run-all build:pkg",
     "build:pkg": "pack build",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "test": "jest"
   },
   "husky": {
     "hooks": {
