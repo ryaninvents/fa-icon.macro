@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ryaninvents/fa-icon.macro/compare/v1.0.0...v1.0.1) (2019-06-01)
+
+
+### Bug Fixes
+
+* CI badge ([c5d7db6](https://github.com/ryaninvents/fa-icon.macro/commit/c5d7db6))
+
 # 1.0.0 (2019-06-01)
 
 
